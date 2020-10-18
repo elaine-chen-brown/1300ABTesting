@@ -4,6 +4,8 @@ html body {
 }
 
 header {
+  font-family: "Raleway";
+  color: darkblue;
 	padding-left: 40px;
 	padding-top: 20px;
 }
@@ -55,6 +57,8 @@ header {
 /**/
 .content-pane {
   padding: 40px;
+  font-family: "Raleway";
+  color: darkblue;
 }
 
 .content-pane-b {

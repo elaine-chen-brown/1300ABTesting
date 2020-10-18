@@ -57,13 +57,13 @@
   </head>
 
   <body>
-    <header>
-      <h1 class="header-b"> Adopt-A-Cat </h1>
+    <header class = "header-b">
+      <h1> Adopt-A-Cat </h1>
       <!-- Ideas: making it pretty/look real, making it look reliable,
           choosing different images, changing layout, etc. Show your creativity!
           We want to see meaningful differences -->
       <!-- Feel free to beautify the site, and/or update the content-->
-      <i class="header-b"> How could you say no to these cuties?</i>
+      <i> How could you say no to these cuties?</i>
     </header>
 
     <!-- If you add any new buttons, you need to update the javascript file, for
@@ -185,7 +185,7 @@
         function navigateToCheckout() {
           // Send number of items in cart to checkout page through URL params.
           params = 'version=B';
-          Array.from(document.getElementsByClassName('vendor-wrapper')).forEach(el => {
+          Array.from(document.getElementsByClassName('vendor-wrapper-b')).forEach(el => {
             numInCart = parseInt(document.getElementById(el.id + '-added').textContent, 0);
             params += ('&' + el.id + '=' + numInCart)
           })
