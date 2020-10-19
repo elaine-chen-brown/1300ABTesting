@@ -1,0 +1,170 @@
+2020-10-18T19:30:40.317295+00:00 app[api]: Release v1 created by user elaine_chen@brown.edu
+2020-10-18T19:30:40.317295+00:00 app[api]: Initial release by user elaine_chen@brown.edu
+2020-10-18T19:30:40.502926+00:00 app[api]: Enable Logplex by user elaine_chen@brown.edu
+2020-10-18T19:30:40.502926+00:00 app[api]: Release v2 created by user elaine_chen@brown.edu
+2020-10-18T19:31:07.000000+00:00 app[api]: Build started by user elaine_chen@brown.edu
+2020-10-18T19:31:40.978174+00:00 app[api]: Deploy 4a5ad9ce by user elaine_chen@brown.edu
+2020-10-18T19:31:40.978174+00:00 app[api]: Release v3 created by user elaine_chen@brown.edu
+2020-10-18T19:31:40.989734+00:00 app[api]: Scaled to web@1:Free by user elaine_chen@brown.edu
+2020-10-18T19:31:45.689864+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-18T19:31:49.161166+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-18T19:31:49.170703+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-18T19:31:49.170767+00:00 app[web.1]: * Environment: production
+2020-10-18T19:31:49.170883+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-18T19:31:49.170943+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-18T19:31:49.171138+00:00 app[web.1]: * Debug mode: on
+2020-10-18T19:31:49.185182+00:00 app[web.1]: * Running on http://0.0.0.0:34970/ (Press CTRL+C to quit)
+2020-10-18T19:31:49.186390+00:00 app[web.1]: * Restarting with stat
+2020-10-18T19:31:50.000000+00:00 app[api]: Build succeeded
+2020-10-18T19:31:50.268347+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-18T19:31:50.300256+00:00 app[web.1]: * Debugger is active!
+2020-10-18T19:31:50.302149+00:00 app[web.1]: * Debugger PIN: 593-138-398
+2020-10-18T19:31:50.333264+00:00 heroku[web.1]: State changed from starting to up
+2020-10-18T19:31:53.619243+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:53] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-18T19:31:53.621650+00:00 heroku[router]: at=info method=GET path="/" host=damp-beyond-36075.herokuapp.com request_id=b026e97e-4077-45e0-818c-aa0280dd37a2 fwd="73.114.134.105" dyno=web.1 connect=0ms service=68ms status=200 bytes=8657 protocol=https
+2020-10-18T19:31:53.712883+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:53] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-18T19:31:53.717970+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=damp-beyond-36075.herokuapp.com request_id=57673f4f-a83b-4d26-ab0f-11d800df9fb1 fwd="73.114.134.105" dyno=web.1 connect=0ms service=45ms status=200 bytes=1866 protocol=https
+2020-10-18T19:31:53.736873+00:00 app[web.1]: 10.43.152.156 - - [18/Oct/2020 19:31:53] "[37mGET /static/cat2.jpg HTTP/1.1[0m" 200 -
+2020-10-18T19:31:53.739798+00:00 heroku[router]: at=info method=GET path="/static/cat2.jpg" host=damp-beyond-36075.herokuapp.com request_id=075937b1-b5b4-47b0-bcd6-072ff5d8d8a7 fwd="73.114.134.105" dyno=web.1 connect=0ms service=11ms status=200 bytes=52547 protocol=https
+2020-10-18T19:31:53.820156+00:00 app[web.1]: 10.63.41.14 - - [18/Oct/2020 19:31:53] "[37mGET /static/cat1.jpg HTTP/1.1[0m" 200 -
+2020-10-18T19:31:53.823330+00:00 app[web.1]: 10.142.192.223 - - [18/Oct/2020 19:31:53] "[37mGET /static/cat4.jpg HTTP/1.1[0m" 200 -
+2020-10-18T19:31:53.824335+00:00 heroku[router]: at=info method=GET path="/static/cat1.jpg" host=damp-beyond-36075.herokuapp.com request_id=acbb12c2-ade1-44a8-9d9c-63c1a2fa8de7 fwd="73.114.134.105" dyno=web.1 connect=1ms service=13ms status=200 bytes=41556 protocol=https
+2020-10-18T19:31:53.826718+00:00 app[web.1]: 10.30.235.17 - - [18/Oct/2020 19:31:53] "[37mGET /static/cat3.jpg HTTP/1.1[0m" 200 -
+2020-10-18T19:31:53.832496+00:00 heroku[router]: at=info method=GET path="/static/cat3.jpg" host=damp-beyond-36075.herokuapp.com request_id=ac242322-5d9f-48e0-81ae-129b0482b5d6 fwd="73.114.134.105" dyno=web.1 connect=0ms service=20ms status=200 bytes=74459 protocol=https
+2020-10-18T19:31:53.833304+00:00 heroku[router]: at=info method=GET path="/static/cat4.jpg" host=damp-beyond-36075.herokuapp.com request_id=3f434e94-666c-4dba-af18-5d894aef4023 fwd="73.114.134.105" dyno=web.1 connect=0ms service=19ms status=200 bytes=110516 protocol=https
+2020-10-18T19:31:53.867754+00:00 app[web.1]: AB_TESTING: A 1603049513844 0 0 ilusto
+2020-10-18T19:31:53.868564+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:53] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:31:53.870384+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=5ad21474-fda0-4275-85d7-3f6d804ca4c5 fwd="73.114.134.105" dyno=web.1 connect=0ms service=9ms status=200 bytes=155 protocol=https
+2020-10-18T19:31:54.118179+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-beyond-36075.herokuapp.com request_id=87b5d016-5579-4650-b7f0-f6e0314ff0ef fwd="73.114.134.105" dyno=web.1 connect=0ms service=7ms status=404 bytes=394 protocol=https
+2020-10-18T19:31:54.118441+00:00 app[web.1]: 10.30.235.17 - - [18/Oct/2020 19:31:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-18T19:31:57.964650+00:00 app[web.1]: AB_TESTING: A 1603049513844 1603049517668 mp1 ilusto
+2020-10-18T19:31:57.965549+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:57] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:31:57.969099+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=e6f9ff53-398a-4275-8a65-40c54e32c2fa fwd="73.114.134.105" dyno=web.1 connect=138ms service=152ms status=200 bytes=155 protocol=https
+2020-10-18T19:31:58.081992+00:00 app[web.1]: AB_TESTING: A 1603049513844 1603049518052 mp1 ilusto
+2020-10-18T19:31:58.082894+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:31:58.084734+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=f4e43b3a-4324-4c38-b3bb-a6f7ec30902b fwd="73.114.134.105" dyno=web.1 connect=0ms service=21ms status=200 bytes=155 protocol=https
+2020-10-18T19:31:58.119670+00:00 app[web.1]: AB_TESTING: A 1603049513844 1603049518108 mp1 ilusto
+2020-10-18T19:31:58.120388+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:31:58.122097+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=e073073f-f14f-4dde-9155-cf72443bbcd8 fwd="73.114.134.105" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-18T19:31:58.238003+00:00 app[web.1]: AB_TESTING: A 1603049513844 1603049518147 mp1 ilusto
+2020-10-18T19:31:58.242377+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:31:58.249519+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=9f28ddc7-a9d6-495f-a2b5-a038c39488f3 fwd="73.114.134.105" dyno=web.1 connect=1ms service=93ms status=200 bytes=155 protocol=https
+2020-10-18T19:31:59.850082+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:59] "[37mGET /checkout?version=A&mp1=4&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-18T19:31:59.851965+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=4&mp2=0&mp3=0&mp4=0" host=damp-beyond-36075.herokuapp.com request_id=98f68285-a722-4920-9b7f-e6a438106396 fwd="73.114.134.105" dyno=web.1 connect=1ms service=8ms status=200 bytes=5175 protocol=https
+2020-10-18T19:31:59.994221+00:00 app[web.1]: AB_TESTING: C 1603049519913 0 0 ilusto
+2020-10-18T19:31:59.995230+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:31:59] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:31:59.997094+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=6b1d482c-d0f8-4485-9a9d-c4edb6a0481f fwd="73.114.134.105" dyno=web.1 connect=0ms service=76ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:00.042393+00:00 app[web.1]: 10.30.235.17 - - [18/Oct/2020 19:32:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-18T19:32:00.045564+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-beyond-36075.herokuapp.com request_id=4274e066-8afb-428c-88a4-8c0566ed913a fwd="73.114.134.105" dyno=web.1 connect=0ms service=11ms status=404 bytes=394 protocol=https
+2020-10-18T19:32:02.536157+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:02] "[37mGET /?version=A&mp1=4&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-18T19:32:02.540680+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=4&mp2=0&mp3=0&mp4=0" host=damp-beyond-36075.herokuapp.com request_id=211bc14b-2dd2-42d5-aee9-b291aaf5c3b9 fwd="73.114.134.105" dyno=web.1 connect=0ms service=15ms status=200 bytes=8657 protocol=https
+2020-10-18T19:32:02.608484+00:00 app[web.1]: AB_TESTING: A 1603049522593 0 0 ilusto
+2020-10-18T19:32:02.609322+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:02] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:02.611983+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=c8664ac4-2739-4546-b4ea-0f4cde79bf55 fwd="73.114.134.105" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:02.655174+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-beyond-36075.herokuapp.com request_id=c5032970-7e96-444b-8408-069c5e997b9d fwd="73.114.134.105" dyno=web.1 connect=1ms service=6ms status=404 bytes=394 protocol=https
+2020-10-18T19:32:02.655413+00:00 app[web.1]: 10.30.235.17 - - [18/Oct/2020 19:32:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-18T19:32:03.417332+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049523319 mp2 ilusto
+2020-10-18T19:32:03.419884+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:03.425271+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=207e748b-add5-4df4-9074-54f1ada03839 fwd="73.114.134.105" dyno=web.1 connect=0ms service=85ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:03.597089+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049523501 mp2 ilusto
+2020-10-18T19:32:03.598582+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:03.602454+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=cb4b8bf3-92c9-4e23-9852-d51b03f8ed1a fwd="73.114.134.105" dyno=web.1 connect=0ms service=89ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:03.761418+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049523670 mp2 ilusto
+2020-10-18T19:32:03.763132+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:03.764859+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=2a3958f5-843d-4816-8efe-92de6e87d9fd fwd="73.114.134.105" dyno=web.1 connect=0ms service=81ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:03.857775+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049523832 mp2 ilusto
+2020-10-18T19:32:03.858669+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:03.860447+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=df5b0c92-b081-41ba-88d6-60d86648e1de fwd="73.114.134.105" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:04.031662+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049524008 mp2 ilusto
+2020-10-18T19:32:04.032493+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:04.040846+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=4f3b6b42-64ac-46c5-9a67-6ce997d970fd fwd="73.114.134.105" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:04.195187+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049524177 mp2 ilusto
+2020-10-18T19:32:04.199550+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:04.201181+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=b2df830d-f55e-4f43-bc9b-921743cde133 fwd="73.114.134.105" dyno=web.1 connect=0ms service=9ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:05.058902+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049524952 mp3 ilusto
+2020-10-18T19:32:05.063178+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:05.065631+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=69b4aeb8-12f6-4f08-8d6e-c2a7a18a5d77 fwd="73.114.134.105" dyno=web.1 connect=0ms service=82ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:05.145025+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049525132 mp3 ilusto
+2020-10-18T19:32:05.145897+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:05.148474+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=db8e7b7b-eded-4c4c-87b9-30f06728fc55 fwd="73.114.134.105" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:05.528517+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049525278 mp3 ilusto
+2020-10-18T19:32:05.529278+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:05.532471+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=67709618-6bca-4036-b51c-7346b478f45a fwd="73.114.134.105" dyno=web.1 connect=0ms service=242ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:05.668945+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049525571 mp3 ilusto
+2020-10-18T19:32:05.672587+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:05.674531+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=9b18b0ad-d9c5-4aae-b9f0-211562ebd533 fwd="73.114.134.105" dyno=web.1 connect=2ms service=87ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:05.727338+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049525714 mp3 ilusto
+2020-10-18T19:32:05.732632+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:05.734464+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=39b7105e-2d04-47fa-855c-eba03dc272a9 fwd="73.114.134.105" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:05.803391+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049525792 mp3 ilusto
+2020-10-18T19:32:05.805446+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:05.808906+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=14ddc9a9-2e92-4ba9-a183-66dee275984c fwd="73.114.134.105" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:06.030024+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049525944 mp3 ilusto
+2020-10-18T19:32:06.031110+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:06.033217+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=e7ebe2f7-f2a5-47ca-a3d5-5060260cd384 fwd="73.114.134.105" dyno=web.1 connect=0ms service=77ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:06.409129+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049526394 mp3 ilusto
+2020-10-18T19:32:06.410483+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:06.415546+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=494f57b0-0ca7-4213-a957-e415c1fc70ef fwd="73.114.134.105" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:06.653966+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049526571 mp3 ilusto
+2020-10-18T19:32:06.654849+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:06.656797+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=22699331-dda0-41dc-b5db-fa3db75450f5 fwd="73.114.134.105" dyno=web.1 connect=0ms service=70ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:06.822902+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049526740 mp3 ilusto
+2020-10-18T19:32:06.823684+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:06.825298+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=6d742e03-9f95-4d5c-9676-5476361cd0d5 fwd="73.114.134.105" dyno=web.1 connect=0ms service=76ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:06.987929+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049526909 mp3 ilusto
+2020-10-18T19:32:06.989286+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:06.991605+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=cab7b989-259a-40a7-8e25-54b123635821 fwd="73.114.134.105" dyno=web.1 connect=1ms service=70ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:07.108194+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049527094 mp3 ilusto
+2020-10-18T19:32:07.109023+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:07.110739+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=bae0c7a6-1478-4f09-b842-a8c22d9c9909 fwd="73.114.134.105" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:07.283215+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049527262 mp3 ilusto
+2020-10-18T19:32:07.283926+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:07.286505+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=d280f769-155a-4774-bda9-f55e7518d0c9 fwd="73.114.134.105" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:07.462567+00:00 app[web.1]: AB_TESTING: A 1603049522593 1603049527450 mp3 ilusto
+2020-10-18T19:32:07.464227+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:07.466823+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=273f5d37-9106-4858-b35a-22208f02ab17 fwd="73.114.134.105" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:09.236076+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:09] "[37mGET /checkout?version=A&mp1=4&mp2=6&mp3=14&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-18T19:32:09.237901+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=4&mp2=6&mp3=14&mp4=0" host=damp-beyond-36075.herokuapp.com request_id=c31e744d-19e2-43e4-85f9-9a56cd636285 fwd="73.114.134.105" dyno=web.1 connect=0ms service=5ms status=200 bytes=5175 protocol=https
+2020-10-18T19:32:09.323422+00:00 app[web.1]: AB_TESTING: C 1603049529303 0 0 ilusto
+2020-10-18T19:32:09.324160+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:09.325846+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=1ef1c945-3642-4e9d-a385-bff1bf7aab7b fwd="73.114.134.105" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:09.370795+00:00 app[web.1]: 10.30.235.17 - - [18/Oct/2020 19:32:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-18T19:32:09.370937+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-beyond-36075.herokuapp.com request_id=adeb4b39-c2ca-4ce3-958b-39ffba8c847c fwd="73.114.134.105" dyno=web.1 connect=0ms service=3ms status=404 bytes=394 protocol=https
+2020-10-18T19:32:11.631004+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:11] "[37mGET /?version=A&mp1=4&mp2=6&mp3=14&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-18T19:32:11.636924+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=4&mp2=6&mp3=14&mp4=0" host=damp-beyond-36075.herokuapp.com request_id=6fd29bcc-6617-4228-90c7-d1f00ca01d80 fwd="73.114.134.105" dyno=web.1 connect=1ms service=9ms status=200 bytes=8657 protocol=https
+2020-10-18T19:32:11.716117+00:00 app[web.1]: AB_TESTING: A 1603049531702 0 0 ilusto
+2020-10-18T19:32:11.718197+00:00 app[web.1]: 10.35.222.75 - - [18/Oct/2020 19:32:11] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:32:11.724040+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=2bf74e6e-a559-401e-8182-2ba748b67d5a fwd="73.114.134.105" dyno=web.1 connect=0ms service=13ms status=200 bytes=155 protocol=https
+2020-10-18T19:32:11.769036+00:00 app[web.1]: 10.30.235.17 - - [18/Oct/2020 19:32:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-18T19:32:11.772750+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-beyond-36075.herokuapp.com request_id=c0f18f5e-6c7c-491e-99c9-2db7cc596977 fwd="73.114.134.105" dyno=web.1 connect=0ms service=9ms status=404 bytes=394 protocol=https
+2020-10-18T19:33:01.476423+00:00 app[web.1]: 10.16.194.154 - - [18/Oct/2020 19:33:01] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-18T19:33:01.478211+00:00 heroku[router]: at=info method=GET path="/" host=damp-beyond-36075.herokuapp.com request_id=bf14559d-814f-415b-9008-73e6d9f04fed fwd="73.114.134.105" dyno=web.1 connect=1ms service=12ms status=200 bytes=8907 protocol=https
+2020-10-18T19:33:01.586376+00:00 app[web.1]: AB_TESTING: B 1603049581552 0 0 ilusto
+2020-10-18T19:33:01.587406+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:01] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:33:01.589856+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=6734356f-1247-4134-97f4-d9e1c2b9e520 fwd="73.114.134.105" dyno=web.1 connect=1ms service=22ms status=200 bytes=155 protocol=https
+2020-10-18T19:33:04.399015+00:00 app[web.1]: AB_TESTING: B 1603049581552 1603049584316 mp3 ilusto
+2020-10-18T19:33:04.400915+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:33:04.401962+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=c131e6f2-ecb3-4726-a796-000b9c1e865f fwd="73.114.134.105" dyno=web.1 connect=1ms service=74ms status=200 bytes=155 protocol=https
+2020-10-18T19:33:04.541940+00:00 app[web.1]: AB_TESTING: B 1603049581552 1603049584460 mp3 ilusto
+2020-10-18T19:33:04.543549+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:33:04.544109+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=45935559-a936-4538-b96e-76b44a528fec fwd="73.114.134.105" dyno=web.1 connect=1ms service=75ms status=200 bytes=155 protocol=https
+2020-10-18T19:33:04.697881+00:00 app[web.1]: AB_TESTING: B 1603049581552 1603049584614 mp3 ilusto
+2020-10-18T19:33:04.701615+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:33:04.702260+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=a6e061c3-ed88-4248-a8b1-4343f0bd71bf fwd="73.114.134.105" dyno=web.1 connect=1ms service=79ms status=200 bytes=155 protocol=https
+2020-10-18T19:33:04.865996+00:00 app[web.1]: AB_TESTING: B 1603049581552 1603049584767 mp3 ilusto
+2020-10-18T19:33:04.867132+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:33:04.872727+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=458602cc-83b9-420d-8705-f8d077c4e212 fwd="73.114.134.105" dyno=web.1 connect=2ms service=87ms status=200 bytes=155 protocol=https
+2020-10-18T19:33:05.559324+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:05] "[37mGET /checkout?version=B&mp1=0&mp2=0&mp3=4&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-18T19:33:05.564753+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=0&mp2=0&mp3=4&mp4=0" host=damp-beyond-36075.herokuapp.com request_id=d8729b63-7914-4a70-b9e1-3910ca48188c fwd="73.114.134.105" dyno=web.1 connect=1ms service=9ms status=200 bytes=5175 protocol=https
+2020-10-18T19:33:05.711122+00:00 app[web.1]: AB_TESTING: C 1603049585627 0 0 ilusto
+2020-10-18T19:33:05.727379+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=1cc3a5fa-2109-49e7-a7c1-e81fdd07fcb1 fwd="73.114.134.105" dyno=web.1 connect=1ms service=90ms status=200 bytes=155 protocol=https
+2020-10-18T19:33:05.727524+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:33:05.774519+00:00 app[web.1]: 10.16.194.154 - - [18/Oct/2020 19:33:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-18T19:33:05.778156+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-beyond-36075.herokuapp.com request_id=f64ad201-7ae3-4de7-82f3-7fc7f4caf71e fwd="73.114.134.105" dyno=web.1 connect=1ms service=9ms status=404 bytes=394 protocol=https
+2020-10-18T19:33:06.680723+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:06] "[37mGET /?version=B&mp1=0&mp2=0&mp3=4&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-18T19:33:06.687207+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=0&mp2=0&mp3=4&mp4=0" host=damp-beyond-36075.herokuapp.com request_id=11000d28-bea9-4420-92fc-1a96add3adde fwd="73.114.134.105" dyno=web.1 connect=1ms service=5ms status=200 bytes=8907 protocol=https
+2020-10-18T19:33:06.768438+00:00 app[web.1]: AB_TESTING: B 1603049586739 0 0 ilusto
+2020-10-18T19:33:06.772755+00:00 app[web.1]: 10.171.230.57 - - [18/Oct/2020 19:33:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-18T19:33:06.777941+00:00 heroku[router]: at=info method=POST path="/data" host=damp-beyond-36075.herokuapp.com request_id=4b060fa8-7b05-4061-b38c-ab8a4bd09ead fwd="73.114.134.105" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-18T19:33:06.837660+00:00 app[web.1]: 10.16.194.154 - - [18/Oct/2020 19:33:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-18T19:33:06.841939+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-beyond-36075.herokuapp.com request_id=b55e2f1d-1c10-461d-9487-dd50ffb20e3a fwd="73.114.134.105" dyno=web.1 connect=1ms service=7ms status=404 bytes=394 protocol=https
